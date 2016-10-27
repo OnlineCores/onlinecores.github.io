@@ -1,0 +1,118 @@
+extends layout
+
+block content
+
+  #index-banner.section.red.lighten-2
+    .container
+      .row
+        .col.s12.m9
+          h1.header.center-on-small-only.white-text= title
+          h4.light.white-text.center-on-small-only Learn about the Material Design and our Project Team.
+        .col.s12.m3
+          .buysellads-header.center-on-small-only
+            //- CarbonAds Zone Code
+            script#_carbonads_js(async, type='text/javascript', src='//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss')
+  .container
+    //- Outer row
+    .row
+      .col.s12.m9.l9
+        //- Material Design
+        #materialdesign.section.scrollspy
+          h2.header Material Design
+          p.caption
+            | Created and designed by Google, Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user
+            | experience across all their products on any platform.
+          .video-container
+            iframe(width='853', height='480', src='http://www.youtube.com/embed/Q8TXgCzxEnw?rel=0', frameborder='0', allowfullscreen='')
+          .row.section
+            h3.header.light Principles
+            .col.s12.l4
+              img.responsive-img(src='media/png/metaphor.png')
+              h4.center Material is the metaphor
+              p.light
+                | The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired by paper and ink and is utilized to facilitate creativity and innovation. Surfaces and edges provide familiar visual
+                | cues that allow users to quickly understand the technology beyond the physical world.
+              br
+            .col.s12.l4
+              img.responsive-img(src='media/png/bold.png')
+              h4.center Bold, graphic, intentional
+              p.light
+                | Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense of hierarchy, meaning, and focus. Emphasis on different actions and components create a visual guide for users.
+              br
+            .col.s12.l4
+              img.responsive-img(src='media/png/motion.png')
+              h4.center Motion provides meaning
+              p.light
+                | Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback and familiarity, this allows the user to fully immerse him or herself into unfamiliar technology. Motion contains
+                | consistency and continuity in addition to giving users additional subconscious information about objects and transformations.
+        //- Mobile Menu
+        .row
+          .col.s12.m9.l10
+            // Sidenav
+            #toast-mobile.section.scrollspy
+              h2.header Navbar
+              p.caption
+                | The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.
+              h4 Drag Out Menu
+              p
+                | This plugin includes several options for customizing the menu. See 
+                a(href='side-nav.html#options') Plugin Options
+                |  for details.
+              img.mobile-image(src='media/gif/menu.gif')
+              // Toast
+              h2.header Toast
+              h4 Swipe to Dismiss
+              p On all devices, you can swipe to dismiss toasts.
+              img.mobile-image(src='media/gif/toast.gif')
+        //- About the Team
+        #team.section.scrollspy
+          .row
+            h2.header Meet the Team
+            p.caption We are a team of students from Carnegie Mellon University.
+            .s12.center
+              .image-container
+                img(src='media/jpg/materialize_team.jpeg', style='width:100%;')
+          br
+          .row
+            .col.s12.m3.center-on-small-only
+              .image-container
+                img(class='responsive-img', src='media/png/alvin.png')
+            .col.s12.m9
+              h4 Alvin Wang
+              p
+                | Alvin is an Information Systems and Human Computer Interaction Major. He worked as a Software Engineer at Fidelity Investments this past summer.
+          .row
+            .col.s12.m3.center-on-small-only
+              .image-container
+                img(class='responsive-img', src='media/png/Alan.png')
+            .col.s12.m9
+              h4 Alan Chang
+              p
+                | Alan is an Information Systems major with a minor in computer science. He worked at as a Front End Developer at Shift Collaborative this past summer.
+          .row
+            .col.s12.m3.center-on-small-only
+              .image-container
+                img(class='responsive-img', src='media/png/alex.png')
+            .col.s12.m9
+              h4 Alex Mark
+              p
+                | Alex is an Information Systems major with a minor in Human Computer Interaction. He worked as a software developer for Intuit this past summer.
+          .row
+            .col.s12.m3.center-on-small-only
+              .image-container
+                img(class='responsive-img', src='media/png/kevin.png')
+            .col.s12.m9
+              h4 Kevin Louie
+              p
+                | Kevin is an Information Systems major with a minor in Human Computer Interaction. This past summer, he worked as a technology analyst at PPG Industries.
+      //- Table of Contents
+      .col.hide-on-small-only.m3.l3
+        .toc-wrapper
+          div(style='height: 1px;')
+            ul.section.table-of-contents
+              li
+                a(href='#materialdesign') Material Design
+              li
+                a(href='#toast-mobile') Mobile Menu
+              li
+                a(href='#team') Meet the Team
