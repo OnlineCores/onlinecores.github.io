@@ -1,0 +1,53 @@
+{
+  "language": "en",
+  "ignoreWordsList": [
+    "OnlineCores",
+    "Onlinecores",
+    "onlinecores",
+    "azurewebsites",
+    "coffeecup",
+    "wordpress",
+    "svg",
+    "json",
+    "htm",
+    "css",
+    "minified",
+    "HookyQ",
+    "jsbeautifyrc",
+    "devDependency",
+    "HookyQR",
+    "onSaveIgnore",
+    "onSave",
+    "stylesheet",
+    "Codeen",
+    "CodePen",
+    "googleplus",
+    "NONINFRINGEMENT",
+    "Sitemap",
+    "vscode",
+    "jsconfig",
+    "src"
+  ],
+  "mistakeTypeToStatus": {
+    "Passive voice": "Hint",
+    "Spelling": "Error",
+    "Complex Expression": "Disable",
+    "Hidden Verbs": "Information",
+    "Hyphen Required": "Disable",
+    "Redundant Expression": "Disable",
+    "Did you mean...": "Disable",
+    "Repeated Word": "Warning",
+    "Missing apostrophe": "Warning",
+    "Cliches": "Disable",
+    "Missing Word": "Disable",
+    "Make I uppercase": "Warning"
+  },
+  "languageIDs": [
+    "markdown",
+    "plaintext"
+  ],
+  "ignoreRegExp": [
+    "/\\(.*\\.(jpg|jpeg|png|md|gif|JPG|JPEG|PNG|MD|GIF)\\)/g",
+    "/((http|https|ftp|git)\\S*)/g"
+  ]
+}
