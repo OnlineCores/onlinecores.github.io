@@ -1,0 +1,24 @@
+/* line 1, ../scss/menu.scss */
+nav {
+  background-color: teal;
+}
+/* line 4, ../scss/menu.scss */
+nav ul li {
+  display: inline-block;
+  height: 64px;
+}
+/* line 7, ../scss/menu.scss */
+nav ul li a {
+  display: inline-block;
+  line-height: 64px;
+  padding: 0 16px;
+  color: silver;
+}
+/* line 12, ../scss/menu.scss */
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 15, ../scss/menu.scss */
+nav ul li a:active {
+  color: red;
+}

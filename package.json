@@ -1,0 +1,24 @@
+{
+  "name": "docs.onlinecores.com",
+  "version": "1.0.0",
+  "description": "Install dependency",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-webserver": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlineCores/onlinecores.github.io.git"
+  },
+  "author": "Mikael Sundström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlineCores/onlinecores.github.io/issues"
+  },
+  "homepage": "https://github.com/OnlineCores/onlinecores.github.io#readme"
+}
