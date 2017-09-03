@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./assets/reset.css";
+@import "./theme.scss";
+@font-face {
+  font-family: 'Roboto';
+  src: url("./assets/fonts/roboto/regular/regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("./assets/fonts/roboto_slab/regular/regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("./assets/fonts/roboto_mono/regular/regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-family: Roboto Slab, "Times New Roman", serif;
+  color: #555;
+}
+
+pre,
+code {
+  font-family: Roboto Mono, monospace;
+}
+
+.primary {
+  background-color: mat-color($primary);
+}
+
+.primary-text {
+  color: mat-color($primary);
+}
+
+.accent {
+  background-color: mat-color($accent);
+}
+
+.accent-text {
+  color: mat-color($accent);
+}
+
+.warn {
+  background-color: mat-color($warn);
+}
+
+.warn-text {
+  color: mat-color($warn);
+}
